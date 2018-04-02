@@ -11,10 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1",
     "jquery": "^3.3.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "popper.js": "^1.14.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
