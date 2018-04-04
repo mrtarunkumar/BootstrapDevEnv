@@ -4,9 +4,8 @@ var path = require('path');
 
 var app = express();
 
-app.use('/js', express.static(__dirname + '/node_modules/jquery/dist'));
-app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js'));
-app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
+app.use('/js', express.static(__dirname + '/public/scripts'));
+app.use('/css', express.static(__dirname + '/public/css'));
 
 app.set('views', path.join(__dirname + '/views/'));
 app.engine('.hbs', exphbs({extname:'.hbs', defaultLayout: 'main'}));
